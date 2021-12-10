@@ -1,0 +1,307 @@
+@media (max-width: 1024px) {
+
+
+    .contact-phone {
+        padding: 10px 139px;
+    }
+
+    .contact-select {
+        padding: 10px 168px;
+    }
+
+    .inputs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        width: 1015px;
+    }
+
+    .card img {
+        width: 93%;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 740px;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    nav, .end-block {
+        display: none;
+    }
+
+    #management .row {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .hover {
+        width: 80%;
+    }
+
+    .hover-title {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .hover-subtitle {
+        font-size: 10px;
+        line-height: 139%;
+    }
+
+    .tech {
+        width: 50%;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    #stay {
+        padding-bottom: 268px;
+    }
+
+    .main-img img {
+        width: 58%;
+        margin-left: 163px;
+    }
+
+    .stay-img1, .stay-img2 {
+        width: 46%;
+        margin-right: 94px;
+        margin-left: 153px;
+    }
+
+    .stay-title {
+        text-align: center;
+    }
+
+    .stay-subtitle {
+        text-align: center;
+        width: 650px;
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .social i {
+        margin: 0 10px;
+    }
+
+    .contact-subtitle {
+        text-align: center;
+        width: 760px;
+        margin-bottom: 20px;
+    }
+
+    .contact-title {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #contact .col-6 {
+        text-align: center;
+    }
+
+    .contact-phone {
+        padding: 10px 56px;
+    }
+
+    .contact-select {
+        padding: 10px 87px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-btn {
+        width: 38%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    #contact {
+        padding-bottom: 50px;
+    }
+
+    .col-3 {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 640px) {
+    .container {
+        width: 620px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 550px;
+    }
+
+    .hero-title {
+        font-size: 45px;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+    }
+
+    .man-subtitle {
+        text-align: center;
+        width: 551px;
+    }
+
+
+    .man-video {
+        top: 111px;
+        right: 0;
+        left: 0;
+        border: 0;
+        margin: auto;
+    }
+
+    #features .col-4 {
+        width: 100%;
+    }
+
+    .left-block, .right-block {
+        width: 100%;
+    }
+
+    .stay-subtitle {
+        width: 535px;
+        line-height: 126%;
+    }
+
+    .main-img img {
+        margin-left: 105px;
+    }
+
+    .contact-subtitle {
+        width: 558px;
+    }
+
+    #footer .col-3 {
+        width: 100%;
+    }
+
+    .footer-title {
+        margin-bottom: 20px;
+    }
+
+    .footer-item {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 415px) {
+    .container {
+        width: 395px;
+    }
+
+    .man-subtitle {
+        width: 395px;
+    }
+
+    .right-block img {
+        width: 96%;
+    }
+
+    #technology .col-3 {
+        width: 100%;
+    }
+
+    .stay-subtitle {
+        width: 401px;
+    }
+
+    .main-img img {
+        margin-left: 72px;
+    }
+
+    .stay-img3 {
+        margin-right: 12px;
+    }
+
+    .contact-subtitle {
+        width: 389px;
+    }
+
+    .stay-img1, .stay-img2 {
+        width: 46%;
+        margin-right: 42px;
+        margin-left: 153px;
+    }
+}
+
+@media (max-width: 340px) {
+    .container {
+        width: 320px;
+    }
+
+    .hero-title {
+        font-size: 34px;
+    }
+
+    .man-subtitle {
+        width: 319px;
+    }
+
+    .main-img img {
+        width: 62%;
+        margin-left: 69px;
+    }
+
+    .stay-img1, .stay-img2 {
+        width: 46%;
+        margin-right: 13px;
+        margin-left: 153px;
+    }
+
+    .stay-subtitle {
+        width: 315px;
+    }
+
+    .contact-subtitle {
+        width: 308px;
+    }
+
+    .footer-el {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        width: 300px;
+    }
+    .man-subtitle {
+        width: 300px;
+    }
+    .stay-subtitle {
+        width: 292px;
+    }
+}

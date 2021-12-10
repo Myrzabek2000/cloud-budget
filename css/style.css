@@ -164,6 +164,40 @@ nav a {
     width: 50%;
 }
 
+.burger {
+    display: none;
+    width: 40px;
+    height: 20px;
+}
+
+.burger-line {
+    width: 40px;
+    height: 2px;
+    background: floralwhite;
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+
+.burger-line:before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background: floralwhite;
+    top: 10px;
+}
+
+.burger-line:after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background: floralwhite;
+    bottom: 0;
+}
+
+
 .man_title {
     font-weight: 600;
     font-size: 36px;
@@ -479,15 +513,7 @@ nav a {
     color: #FFFFFF;
 
 }
-#footer{
-    position: absolute;
-    width: 1440px;
-    height: 435px;
-    left: 0px;
-    top: 2687px;
 
-    background: #FAFAFA;
-}
 .footer-item a {
     color: black;
 }
@@ -502,8 +528,6 @@ nav a {
     color: #dd0c13;
     font-size: 30px;
 }
-
-
 
 
 /*Contact*/
